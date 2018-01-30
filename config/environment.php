@@ -1,9 +1,9 @@
 <?php
 
 /*----------------------------------------------------*/
-// Define environment type
+// Define environment type     
 /*----------------------------------------------------*/
 return [
-    'local' => 'SIMOCCCAH06',
+    'local' => ['SIMOCCCAH06','SIMOCCCAH010','SIMOCCCAH014'],
     'production' => 'http://btdance.dev/'
 ];
