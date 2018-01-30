@@ -24,3 +24,8 @@ cs_fixer*
 ### Environment Credentials
 .env
 .env.*
+/config/environment.php
+
+
+### Perso
+Charlotte/
