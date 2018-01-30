@@ -35,7 +35,4 @@ composer install
 
 
 
-
-
-
 [![Build Status]
