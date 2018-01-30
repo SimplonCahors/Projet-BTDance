@@ -20,6 +20,15 @@ cs_fixer*
 /htdocs/content/uploads/
 /htdocs/content/upgrade/
 
+### Plugins Wordpress
+/htdocs/content/plugins/bwp-google-xml-sitemaps/
+/htdocs/content/plugins/jetpack/
+/htdocs/content/plugins/login-lockdown/
+/htdocs/content/plugins/w3-total-cache/
+/htdocs/content/plugins/wordpress-seo/
+/htdocs/content/plugins/wp-smushit/
+
+
 
 ### Environment Credentials
 .env
