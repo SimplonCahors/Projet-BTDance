@@ -21,6 +21,9 @@ cs_fixer*
 
 ### Plugins Wordpress
 /htdocs/content/plugins/*
+!/htdocs/content/plugins/antfarm_shortcodes
+!/htdocs/content/plugins/revslider
+!/htdocs/content/plugins/js_composer
 
 
 
