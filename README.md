@@ -1,4 +1,4 @@
-#Pour installer projet en local : 
+Kris#Pour installer projet en local : 
 
 
 installer curl puis composer : 
