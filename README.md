@@ -30,12 +30,4 @@ dans config/envrionment.php : renseigner les champs:
 composer install
 
 
-
-
-
-
-
-
-
-
-[![Build Status]
+Sur WP : activer tout les plugins
