@@ -1,29 +1,41 @@
-Themosis framework
-==================
+#Pour installer projet en local : 
 
-[![Build Status](https://travis-ci.org/themosis/themosis.svg?branch=dev)](https://travis-ci.org/themosis/themosis)
 
-The Themosis framework is a tool aimed to WordPress developers of any levels. But the better WordPress and PHP knowledge you have the easier it is to work with.
+installer curl puis composer : 
 
-Themosis framework is a tool to help you develop websites and web applications faster using [WordPress](https://wordpress.org). Using an elegant and simple code syntax, Themosis framework helps you structure and organize your code and allows you to better manage and scale your WordPress websites and applications.
+sudo apt-get install curl\ncurl -sS https://getcomposer.org/installer 
+sudo php -- --install-dir=/usr/local/bin --filename=composer\ncomposer
 
-Development team
-----------------
-The framework was created by [Julien Lambé](http://www.themosis.com/), who continues to lead the development.
+Créer un projet themosis
+composer create-project themosis/themosis BTDance
 
-Contributing
-------------
-Any help is appreciated. The project is open-source and we encourage you to participate. You can contribute to the project in multiple ways by:
+Faire un pull et merge tout dans le dossier BTDance créé. 
+Aller chercher la bdd dans bdd/ et l'importer dans sa bdd locale. 
 
-- Reporting a bug issue
-- Suggesting features
-- Sending a pull request with code fix or feature
-- Following the project on [GitHub](https://github.com/themosis)
-- Following us on Twitter: [@Themosis](https://twitter.com/Themosis)
-- Sharing the project around your community
 
-For details about contributing to the framework, please check the [contribution guide](http://framework.themosis.com/docs/1.3/contributing).
+dans BTDance/.env.local renseigner les champs : 
+DB_NAME = "votre_database"
+DB_USER = "votre_username"
+DB_PASSWORD = "votre_password"
+DB_HOST = "localhost"
+WP_HOME = "votre_url"
+WP_SITEURL = "votre_url/cms"
 
-License
--------
-The Themosis framework is open-source software licensed under [GPL-2+ license](http://www.gnu.org/licenses/gpl-2.0.html).
+dans config/envrionment.php : renseigner les champs: 
+
+   'local' => 'votre_hostname',
+   'production' => 'votre_url'
+
+
+composer install
+
+
+
+
+
+
+
+
+
+
+[![Build Status]
